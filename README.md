@@ -13,7 +13,7 @@ Add this plugin to the gulp-web-module reference in your gulpfile
 
     gulpWebModules({
       plugins: [
-        gwmStylus(options[, {gulp-sass}])
+        gwmStylus(options[, {gulp-stylus}])
       ]
     }).injectTasks(gulp);
 ```
